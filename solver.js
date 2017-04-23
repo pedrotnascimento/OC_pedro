@@ -130,13 +130,14 @@ function mostraReport(){
     
 }
 
-!TEST && main();
-
-
-module.exports.main = main;
-module.exports.pilots = pilots;
-module.exports.ordemChegada = ordemChegada;
-module.exports.pilots = pilots; 
-module.exports.primeiraInstancia = primeiraInstancia; 
-module.exports.getMelhorVolta = getMelhorVolta;
-module.exports.calcTempoTotal = calcTempoTotal;
+if(!TEST){
+   main();
+}else{
+   module.exports.main = main;
+   module.exports.pilots = pilots;
+   module.exports.ordemChegada = ordemChegada;
+   module.exports.pilots = pilots; 
+   module.exports.primeiraInstancia = primeiraInstancia; 
+   module.exports.getMelhorVolta = getMelhorVolta;
+   module.exports.calcTempoTotal = calcTempoTotal;
+}
