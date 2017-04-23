@@ -20,6 +20,7 @@ ENTREGA
 
 ## Solução
 
+- Primeiramente execute no terminal dentro da pasta do projeto: npm install 
 - 3 módulos:
      - Pilot: que contém o construtor do piloto e algumas funções.
      - solver: Solução em si.
