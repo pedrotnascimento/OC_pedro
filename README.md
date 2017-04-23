@@ -21,14 +21,14 @@ ENTREGA
 ## Solução
 
 - 3 módulos:
- - Pilot: que contém o construtor do piloto e algumas funções.
- - solver: Solução em si.
-  - visualização através de terminal.
- - test: Feito em Mocha
-  - observação: Não consegui fazer com que o módulo reinicia-se com novos dados a não ser fazendo o reload(deletando cache)
+     - Pilot: que contém o construtor do piloto e algumas funções.
+     - solver: Solução em si.
+         - visualização através de terminal.
+     - test: Feito em Mocha
+         - observação: Não consegui fazer com que o módulo reinicia-se com novos dados a não ser fazendo o reload(deletando cache)
   Não sei se essa é a melhor prática.
-  - setar TEST = true, para não mostrar o report ao executar o teste
-  - para executar o teste: npm install -g mocha && mocha 
-  - os testes cobriram casos como mudança de ordem de chegada, inicio e término da prova, velocidade média.
+         - setar TEST = true, para não mostrar o report ao executar o teste
+         - para executar o teste: npm install -g mocha && mocha 
+         - os testes cobriram casos como mudança de ordem de chegada, inicio e término da prova, velocidade média.
   
  
