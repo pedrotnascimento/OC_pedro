@@ -1,4 +1,4 @@
-var TEST = true; // set to true for testing
+var TEST = false; // set to true for testing
 var pilots = {}; //dicionário de pilotos
 var ordemChegada = [];
 TAM_CORRIDA = 4; //quantidade de voltas
